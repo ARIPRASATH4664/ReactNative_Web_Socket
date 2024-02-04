@@ -13,7 +13,11 @@
 https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/0ee96919-f93a-46b1-a90a-7cf9dfb6251b
 
 
+## Scope of Improvements
 
+* Divide the OrderBook Component to render the list
+* Move the style files into different file for better understanding
+* Using Combine reducer to have multiple store data 
 
 
 
