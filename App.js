@@ -5,7 +5,7 @@
  * @format
  */
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -28,7 +28,7 @@ function App() {
 }
 
 const styles = StyleSheet.create({
-  sectionContainer: {flex: 1, backgroundColor: '#fff', margin: 10, borderWidth: 1},
+  sectionContainer: {flex: 1, backgroundColor: '#fff', margin: 10},
 });
 
 export default App;
