@@ -74,9 +74,11 @@ export const OrderBookScreen = () => {
             }
             isConnected.current= state.isConnected;
         }
-      
     });
 
+    setTimeout(() => {
+      onCloseConnection();
+    }, 10000)
     return () => {
       unsubscribe();
       onCloseConnection();

@@ -7,6 +7,7 @@
 
 import React from 'react';
 import {
+  LogBox,
   SafeAreaView,
   ScrollView,
   StyleSheet,
@@ -30,5 +31,7 @@ function App() {
 const styles = StyleSheet.create({
   sectionContainer: {flex: 1, backgroundColor: '#fff', margin: 10},
 });
+
+LogBox.ignoreAllLogs();
 
 export default App;
