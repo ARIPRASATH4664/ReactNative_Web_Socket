@@ -7,7 +7,7 @@ export const OrderBookComponent = props => {
 
   return (
     <View style={styles.sectionContainer}>
-      <View style={{flexDirection: 'column', flex: 1, borderWidth: 1, borderRightWidth :0}}>
+      <View style={{flexDirection: 'column', flex: 1, borderRightWidth :0}}>
         <View style={styles.splitContainer}>
           <View style={styles.totalContainer}>
             <Text style={styles.totalText}>TOTAL</Text>
@@ -36,7 +36,7 @@ export const OrderBookComponent = props => {
           />
         </View>
       </View>
-      <View style={{flexDirection: 'column', flex: 1, borderWidth: 1}}>
+      <View style={{flexDirection: 'column', flex: 1}}>
         <View style={styles.splitContainer}>
           <View style={styles.priceContainer}>
             <Text style={styles.priceLeftText}>PRICE</Text>

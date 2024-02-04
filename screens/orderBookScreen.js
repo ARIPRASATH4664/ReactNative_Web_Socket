@@ -88,7 +88,7 @@ export const OrderBookScreen = () => {
     <View style={styles.sectionContainer}>
       <Text
         style={styles.title}>
-        OrderBook Screen
+        OrderBook 
       </Text>
       <OrderBookComponent orders={orders} />
     </View>
