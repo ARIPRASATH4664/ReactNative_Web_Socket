@@ -54,10 +54,10 @@ export const OrderBookComponent = props => {
                 <View style={styles.splitNestedContainer}>
                   <View style={{...styles.rightListBackground, width:`${width}%`,}} />
                   <View style={styles.priceContainer}>
-                    <Text style={styles.priceLeftText}>{props.orders[item]}</Text>
+                    <Text style={styles.priceLeftText}>{item}</Text>
                   </View>
                   <View style={styles.totalContainer}>
-                    <Text style={styles.totalRightText}>{item}</Text>
+                    <Text style={styles.totalRightText}>{props.orders[item]}</Text>
                   </View>
                 </View>
               );
@@ -98,13 +98,13 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   totalContainer: {
-    flex: 1,
+    flex: 2,
     alignItems: 'flex-start',
     width: '100%',
   },
   totalText: {
     borderBottomWidth: 1,
-    flex: 1,
+    flex: 2,
     width: '100%',
     paddingLeft: 3,
   },
