@@ -23,7 +23,7 @@ export const OrderBookComponent = props => {
               let width = Math.abs( Math.round(Math.abs(props.orders[item] * item))% 100);
               return (
                 <View style={styles.splitNestedContainer}>
-                  <View style={{...styles.leftListBackground, width:width}} />
+                  <View style={{...styles.leftListBackground, width:`${width}%`}} />
                   <View style={styles.totalContainer}>
                     <Text style={styles.totalText}>{props.orders[item]}</Text>
                   </View>
@@ -52,7 +52,7 @@ export const OrderBookComponent = props => {
               let width = Math.abs( Math.round(Math.abs(props.orders[item] * item))% 100);
               return (
                 <View style={styles.splitNestedContainer}>
-                  <View style={{...styles.rightListBackground, width: width,}} />
+                  <View style={{...styles.rightListBackground, width:`${width}%`,}} />
                   <View style={styles.priceContainer}>
                     <Text style={styles.priceLeftText}>{props.orders[item]}</Text>
                   </View>
