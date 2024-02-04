@@ -1,10 +1,12 @@
-# Created the CLI project from scratch.
-# Integrated the Redux for the store logic
-# Gone through the Bitfinex Docs and understanding the formats
-# Integrating Web Scoket calls with the RN App
-# Updating the Data into store based on the WS data
-# Render List with the data and re-render based up on new fetch list
-# Added the websocket connection re-establishment on the network status.
+## Procedure Followed
+
+* Created the CLI project from scratch.
+*  Integrated the Redux for the store logic
+*  Gone through the Bitfinex Docs and understanding the formats
+*  Integrating Web Scoket calls with the RN App
+*  Updating the Data into store based on the WS data
+* Render List with the data and re-render based up on new fetch list
+* Added the websocket connection re-establishment on the network status.
 
 
 ## Recording
