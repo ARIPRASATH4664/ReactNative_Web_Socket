@@ -2,7 +2,7 @@
 
 https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/c4729b33-1f89-4639-a680-0ff2f443b3d5
 
-### Added the websocket connection re-establishment on the newtowrk status.
+### Added the websocket connection re-establishment on the network status.
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
