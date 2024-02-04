@@ -8,6 +8,8 @@
 * Render List with the data and re-render based up on new fetch list
 * Added the websocket connection re-establishment on the network status.
 
+* New branch expo_main with expo support
+
 
 ## Recording
 
