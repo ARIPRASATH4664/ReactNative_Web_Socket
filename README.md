@@ -1,8 +1,27 @@
+# Created the CLI project from scratch.
+# Integrated the Redux for the store logic
+# Gone through the Bitfinex Docs and understanding the formats
+# Integrating Web Scoket calls with the RN App
+# Updating the Data into store based on the WS data
+# Render List with the data and re-render based up on new fetch list
+# Added the websocket connection re-establishment on the network status.
+
+
 ## Recording
 
 https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/c4729b33-1f89-4639-a680-0ff2f443b3d5
 
-### Added the websocket connection re-establishment on the network status.
+
+
+
+
+
+
+
+
+
+
+
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
