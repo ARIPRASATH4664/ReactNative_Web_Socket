@@ -5,6 +5,7 @@ import {useSelector} from 'react-redux';
 import {useDispatch} from 'react-redux';
 import {orderActionCreator} from '../store/action';
 import {moderateScale} from 'react-native-size-matters';
+import NetInfo from "@react-native-community/netinfo";
 
 export const OrderBookScreen = () => {
     
