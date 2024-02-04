@@ -10,9 +10,8 @@
 
 
 ## Recording
-https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/0ee96919-f93a-46b1-a90a-7cf9dfb6251b
 
-https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/be77965a-ee49-4053-8fd6-3875674148b0
+https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/8fbb0c72-ce08-4466-a4a9-981a4b956491
 
 
 
@@ -20,7 +19,8 @@ https://github.com/ARIPRASATH4664/ReactNative_Web_Socket/assets/65212662/be77965
 
 * Divide the OrderBook Component to render the list
 * Move the style files into different file for better understanding
-* Using Combine reducer to have multiple store data 
+* Using Combine reducer to have multiple store data
+* Data Source of truth
 
 
 
