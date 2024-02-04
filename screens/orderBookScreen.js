@@ -23,7 +23,7 @@ export const OrderBookScreen = () => {
         event: 'subscribe',
         channel: 'book',
         symbol: 'tBTCUSD',
-        freq: 'F1',
+        freq: 'F0',
         prec: 'P2',
       });
 
@@ -40,6 +40,8 @@ export const OrderBookScreen = () => {
   useEffect(() => {
     openWSConnection();
     ws.onmessage = e => {
+    //   console.log("SUCK!!! ~ useEffect ~ e:", e)
+
       // let channelId =
       if (e.data) {
         try {
@@ -47,7 +49,9 @@ export const OrderBookScreen = () => {
           let channelId = parsedData[0];
           let price = parsedData[1][0];
           let amount = parsedData[1][2];
+        //   console.log("SUCK!!! ~ useEffect ~ typeof price === 'number' && typeof amount === 'number':", typeof price === 'number' , typeof amount === 'number')
           if (typeof price === 'number' && typeof amount === 'number')
+
             dispatch(orderActionCreator({channelId, price, amount}));
         } catch (e) {}
       }
